@@ -1,0 +1,15 @@
+Jane Doe
+jane.doe@email.com
++1-555-123-4567
+
+Skills: Python, Data Analysis, Machine Learning, SQL
+
+Education: B.Sc. in Computer Science, XYZ University, 2022
+
+Experience:
+- Data Analyst at ABC Corp (2022-2024)
+- Intern at DataTech (2021)
+
+Projects:
+- Resume Parser Project
+- Sales Data Dashboard
