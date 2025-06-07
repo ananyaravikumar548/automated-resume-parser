@@ -1,0 +1,27 @@
+ 1. Automated Resume Parser
+🔍 What is it?
+
+It's a web application where users can upload PDF resumes. The app automatically reads the resume and extracts important information like the candidate’s name, skills, and education.
+
+⚙️ How does it work?
+
+The user uploads a resume through a simple web interface (Flask).
+The uploaded PDF is processed using:
+pdfplumber – to extract raw text from the PDF.
+spaCy (NLP) – to detect entities like names using machine learning.
+Predefined keywords are used to match skills and education.
+The extracted details are stored in a local database (like SQLite or PostgreSQL).
+It displays a success message once the process is done.
+🛠️ Technologies Used
+
+Python
+Flask (for the web interface)
+pdfplumber (to read PDFs)
+spaCy (for NLP to detect names)
+SQL (SQLite/PostgreSQL) for storing the data
+🎯 What did I learn/achieve?
+
+How to build a basic Flask app
+How to work with PDFs in Python
+Basics of NLP using spaCy
+How to connect a Python app to a database
